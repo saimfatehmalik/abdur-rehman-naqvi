@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Abdur Rehman Naqvi | Videographer and Video Editor in Karachi</title>
+<meta name="description" content="Abdur Rehman Naqvi is a Karachi-based director of photography and video editor. Podcasts, documentaries, events, and brand video for Shajarah Institute, Bano Qabil, Unshackled and more.">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Abdur Rehman Naqvi | Videographer and Video Editor in Karachi">
+<meta property="og:description" content="Director of photography and video editor from Karachi. Podcasts, documentaries, events and brand video.">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="https://YOUR-DOMAIN-HERE/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0e0e0f;
+    --bg-2: #161618;
+    --ink: #f4f2ef;
+    --muted: #8d8d93;
+    --accent: #ff5a4e;
+    --line: rgba(244, 242, 239, 0.12);
+    --pad: clamp(20px, 5vw, 56px);
+  }
+  @media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) {
+      --bg: #f4f2ef;
+      --bg-2: #ffffff;
+      --ink: #0e0e0f;
+      --muted: #6b6b70;
+      --line: rgba(14, 14, 15, 0.12);
+    }
+  }
+  :root[data-theme="light"] {
+    --bg: #f4f2ef; --bg-2: #ffffff; --ink: #0e0e0f; --muted: #6b6b70; --line: rgba(14, 14, 15, 0.12);
+  }
+  :root[data-theme="dark"] {
+    --bg: #0e0e0f; --bg-2: #161618; --ink: #f4f2ef; --muted: #8d8d93; --line: rgba(244, 242, 239, 0.12);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body { background: var(--bg); color: var(--ink); font-family: "Inter", system-ui, sans-serif; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+  h1, h2, h3 { font-family: "Inter Tight", "Inter", sans-serif; font-weight: 600; letter-spacing: -0.035em; line-height: 1.0; }
+  a { color: inherit; }
+  img { max-width: 100%; display: block; }
+  .wrap { padding: 0 var(--pad); max-width: 1320px; margin: 0 auto; }
+  .label { font-size: .78rem; text-transform: uppercase; letter-spacing: .14em; color: var(--muted); display: flex; gap: .6rem; align-items: center; }
+  .label::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); }
+  section { padding: 96px 0; border-top: 1px solid var(--line); }
+
+  /* Nav */
+  nav { position: fixed; top: 0; left: 0; right: 0; z-index: 50; background: color-mix(in srgb, var(--bg) 85%, transparent); backdrop-filter: blur(12px); border-bottom: 1px solid var(--line); }
+  nav .wrap { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+  .logo { font-family: "Inter Tight", sans-serif; font-weight: 700; text-decoration: none; letter-spacing: -0.02em; }
+  .logo span { color: var(--accent); }
+  .nav-links { display: flex; gap: 1.8rem; list-style: none; font-size: .92rem; }
+  .nav-links a { text-decoration: none; color: var(--muted); transition: color .2s; }
+  .nav-links a:hover { color: var(--ink); }
+  .nav-right { display: flex; gap: .6rem; align-items: center; }
+  .pill-btn { font-size: .9rem; text-decoration: none; padding: .55rem 1.1rem; border-radius: 999px; background: var(--accent); color: #fff; font-weight: 500; }
+  .toggle { width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--line); background: none; color: var(--ink); cursor: pointer; }
+
+  /* Hero */
+  .hero { padding-top: 150px; padding-bottom: 72px; border-top: 0; }
+  .hero h1 { font-size: clamp(3rem, 9vw, 8.5rem); max-width: 14ch; }
+  .hero h1 .accent { color: var(--accent); }
+  .hero-row { display: flex; justify-content: space-between; align-items: flex-end; gap: 2rem; flex-wrap: wrap; margin-top: 2.5rem; }
+  .hero-row p { max-width: 46ch; color: var(--muted); font-size: 1.05rem; }
+  .hero-row .btns { display: flex; gap: .7rem; flex-wrap: wrap; }
+  .btn { text-decoration: none; padding: .85rem 1.4rem; border-radius: 999px; font-weight: 500; font-size: .95rem; border: 1px solid var(--line); transition: transform .2s; display: inline-block; }
+  .btn.solid { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+  .btn:hover { transform: translateY(-2px); }
+
+  /* Client strip */
+  .strip { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 26px 0; overflow: hidden; }
+  .strip-track { display: flex; gap: 3.5rem; white-space: nowrap; animation: slide 30s linear infinite; width: max-content; }
+  .strip-track span { font-family: "Inter Tight", sans-serif; font-size: 1.2rem; color: var(--muted); font-weight: 500; letter-spacing: -0.01em; }
+  @keyframes slide { to { transform: translateX(-50%); } }
+
+  /* Services */
+  .services-head { display: flex; justify-content: space-between; align-items: end; gap: 2rem; flex-wrap: wrap; margin-bottom: 3rem; }
+  .services-head h2 { font-size: clamp(2.2rem, 5vw, 3.8rem); max-width: 16ch; }
+  .service { display: grid; grid-template-columns: 80px 1fr 1fr; gap: 2rem; padding: 2rem 0; border-top: 1px solid var(--line); align-items: start; }
+  .service:last-child { border-bottom: 1px solid var(--line); }
+  .service .num { font-family: "Inter Tight", sans-serif; color: var(--accent); font-size: .95rem; font-weight: 600; }
+  .service h3 { font-size: clamp(1.5rem, 3vw, 2.2rem); }
+  .service p { color: var(--muted); }
+
+  /* Reels carousel */
+  .reel-head { display: flex; justify-content: space-between; align-items: end; gap: 1rem; margin-bottom: 2rem; flex-wrap: wrap; }
+  .reel-head h2 { font-size: clamp(2.2rem, 5vw, 3.8rem); }
+  .carousel-hint { color: var(--muted); font-size: .9rem; }
+  .carousel { display: flex; gap: 1.2rem; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 1rem; scrollbar-width: none; }
+  .carousel::-webkit-scrollbar { display: none; }
+  .reel { flex: 0 0 min(280px, 78vw); aspect-ratio: 9 / 16; border-radius: 18px; overflow: hidden; border: 1px solid var(--line); background: var(--bg-2); scroll-snap-align: start; }
+  .reel iframe { width: 100%; height: 100%; border: 0; display: block; }
+  .reel-empty { height: 100%; display: flex; align-items: center; justify-content: center; color: var(--muted); }
+  .reel-more { margin-top: 1.5rem; display: inline-block; color: var(--accent); text-decoration: none; font-weight: 500; }
+
+  /* Photography */
+  .photo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.2rem; }
+  .photo { aspect-ratio: 4 / 5; border-radius: 18px; overflow: hidden; border: 1px solid var(--line); background: var(--bg-2); }
+  .photo iframe { width: 100%; height: 100%; border: 0; display: block; }
+
+  /* Experience */
+  .exp-row { display: grid; grid-template-columns: 1fr 1.4fr 180px; gap: 1.5rem; padding: 1.4rem 0; border-top: 1px solid var(--line); align-items: baseline; }
+  .exp-row:last-child { border-bottom: 1px solid var(--line); }
+  .exp-row h3 { font-size: 1.35rem; }
+  .exp-row p { color: var(--muted); font-size: .98rem; }
+  .exp-row .when { color: var(--accent); font-size: .9rem; text-align: right; }
+
+  /* Contact */
+  .contact h2 { font-size: clamp(3rem, 9vw, 7.5rem); }
+  .contact h2 .accent { color: var(--accent); }
+  .contact .info { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2.5rem; }
+  .contact .info a { text-decoration: none; font-size: 1.1rem; border-bottom: 1px solid var(--accent); padding-bottom: 2px; }
+  .contact .info div { color: var(--muted); font-size: .9rem; }
+  .contact .info strong { display: block; color: var(--ink); font-weight: 500; font-size: 1.1rem; }
+
+  footer { border-top: 1px solid var(--line); padding: 28px 0; font-size: .88rem; color: var(--muted); }
+  footer .wrap { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+
+  .reveal { opacity: 0; transform: translateY(20px); transition: opacity .7s ease, transform .7s ease; }
+  .reveal.in { opacity: 1; transform: none; }
+
+  @media (max-width: 860px) {
+    .nav-links { display: none; }
+    .service { grid-template-columns: 50px 1fr; }
+    .service p { grid-column: 2; }
+    .exp-row { grid-template-columns: 1fr; gap: .3rem; }
+    .exp-row .when { text-align: left; }
+    section { padding: 72px 0; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation: none !important; transition: none !important; }
+    .reveal { opacity: 1; transform: none; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a href="#top" class="logo">AR<span>.</span>Naqvi</a>
+    <ul class="nav-links">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#reels">Reels</a></li>
+      <li><a href="#photography">Photography</a></li>
+      <li><a href="#experience">Experience</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="toggle" id="themeToggle" aria-label="Toggle theme">◐</button>
+      <a class="pill-btn" href="#contact">Let's talk</a>
+    </div>
+  </div>
+</nav>
+
+<header id="top" class="hero">
+  <div class="wrap">
+    <p class="label reveal">Karachi, Pakistan · Available for projects</p>
+    <h1 class="reveal" style="margin-top:1.4rem">Stories shot with <span class="accent">intent.</span></h1>
+    <div class="hero-row reveal">
+      <p>I'm SM Abdur Rehman Naqvi. I shoot and edit podcasts, documentaries and events, and turn ideas into clean, purposeful video.</p>
+      <div class="btns">
+        <a class="btn solid" href="#reels">Watch my work</a>
+        <a class="btn" href="#contact">Get in touch</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="strip" aria-label="Clients and collaborations">
+  <div class="strip-track">
+    <span>Shajarah Institute</span><span>Bano Qabil 4.0</span><span>Unshackled 2.0</span><span>Unshackled 3.0</span><span>TCC YouTube</span><span>Sublime Trendz</span><span>Skills 360 PK</span>
+    <span>Shajarah Institute</span><span>Bano Qabil 4.0</span><span>Unshackled 2.0</span><span>Unshackled 3.0</span><span>TCC YouTube</span><span>Sublime Trendz</span><span>Skills 360 PK</span>
+  </div>
+</div>
+
+<section id="services">
+  <div class="wrap">
+    <div class="services-head reveal">
+      <div>
+        <p class="label">What I do</p>
+        <h2 style="margin-top:1rem">Camera, light and edit, all in one hand.</h2>
+      </div>
+    </div>
+    <article class="service reveal">
+      <span class="num">01</span>
+      <h3>Podcasts &amp; Lectures</h3>
+      <p>Multi-camera setups, lighting and clean edits for podcasts, lectures and institute content. Built to be watched all the way through.</p>
+    </article>
+    <article class="service reveal">
+      <span class="num">02</span>
+      <h3>Documentary &amp; Cinematography</h3>
+      <p>Director of photography and assistant DOP on studio documentaries, including an environmental piece shot on location in Karachi.</p>
+    </article>
+    <article class="service reveal">
+      <span class="num">03</span>
+      <h3>Events &amp; Brand Video</h3>
+      <p>Event coverage, AV and photography for large audiences, plus product shoots and brand edits in CapCut, Premiere Pro and DaVinci Resolve.</p>
+    </article>
+  </div>
+</section>
+
+<section id="reels">
+  <div class="wrap">
+    <div class="reel-head reveal">
+      <div>
+        <p class="label">Instagram</p>
+        <h2 style="margin-top:1rem">Recent edits &amp; reels</h2>
+      </div>
+      <span class="carousel-hint">Swipe or scroll to see more →</span>
+    </div>
+    <div class="carousel" id="reelGrid"></div>
+    <a class="reel-more" href="https://www.instagram.com/shajarahinstitute/" target="_blank" rel="noopener">See more on Instagram →</a>
+  </div>
+</section>
+
+<section id="photography">
+  <div class="wrap">
+    <p class="label reveal">Photography</p>
+    <h2 class="reveal" style="margin:1rem 0 2.5rem; font-size:clamp(2.2rem,5vw,3.8rem)">Stills &amp; photo work</h2>
+    <div class="photo-grid" id="photoGrid"></div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="wrap">
+    <p class="label reveal">Experience</p>
+    <h2 class="reveal" style="margin:1rem 0 2.5rem; font-size:clamp(2.2rem,5vw,3.8rem)">Where I've worked</h2>
+    <div class="exp-row reveal">
+      <h3>Director of Photography &amp; Editor</h3>
+      <p>Shajarah Institute. Podcasts, lectures and events: camera, lighting, editing.</p>
+      <span class="when">Dec 2024 – Present</span>
+    </div>
+    <div class="exp-row reveal">
+      <h3>Video Editor &amp; Videographer</h3>
+      <p>Freelance. Assistant DOP / AD on studio documentaries and podcasts.</p>
+      <span class="when">2+ years</span>
+    </div>
+    <div class="exp-row reveal">
+      <h3>Studio Production Intern</h3>
+      <p>TCC YouTube channel. Art direction and set design.</p>
+      <span class="when">Mar – Sep 2024</span>
+    </div>
+    <div class="exp-row reveal">
+      <h3>Product Photography Intern</h3>
+      <p>Sublime Trendz. Studio lighting, product shoots and editing.</p>
+      <span class="when">Jan – Mar 2024</span>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap contact">
+    <p class="label reveal">Contact</p>
+    <h2 class="reveal" style="margin-top:1.2rem">Let's make something <span class="accent">worth watching.</span></h2>
+    <div class="info reveal">
+      <div><strong><a href="mailto:abdurrehman21067@gmail.com">abdurrehman21067@gmail.com</a></strong>Email</div>
+      <div><strong>+92 325 2192136</strong>Phone · Karachi, Pakistan</div>
+      <div><strong><a href="https://www.instagram.com/shajarahinstitute/" target="_blank" rel="noopener">Shajarah Institute</a></strong>Instagram</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 SM Abdur Rehman Naqvi</span>
+    <span>Director of Photography · Video Editor</span>
+  </div>
+</footer>
+
+<script>
+  // Paste Instagram post or reel links below. Example: "https://www.instagram.com/reel/XXXX/"
+  const REEL_LINKS = [
+    "https://www.instagram.com/reel/DaiqhOJiYQR/",
+    "https://www.instagram.com/reel/DdraSwkunBT/", // Zehar Banta Pahar
+    "https://www.instagram.com/reel/DYueNL9MuLd/",
+    "https://www.instagram.com/reel/DdtwillMCKm/", // Thesis
+    "https://www.instagram.com/reel/DXhEF0xDIX5/", // Rawdah Videography & Edit testimonial
+    "https://www.instagram.com/reel/DbGJyaADvYq/", // Ilm Valley edit & videography
+  ];
+  // Photography: Instagram post links (carousel opens on the first image)
+  const PHOTO_LINKS = [
+    "https://www.instagram.com/p/DbqcGBjjClt/",
+    "https://www.instagram.com/p/Dbvk23gjKFz/",
+  ];
+
+  const toEmbed = (url) => url.replace(/\/?$/, '/') + 'embed/';
+
+  const reelGrid = document.getElementById('reelGrid');
+  if (REEL_LINKS.length) {
+    REEL_LINKS.forEach(url => {
+      const wrap = document.createElement('div');
+      wrap.className = 'reel';
+      const frame = document.createElement('iframe');
+      frame.src = toEmbed(url);
+      frame.loading = 'lazy';
+      frame.allow = 'encrypted-media; picture-in-picture';
+      frame.title = 'Instagram video by Shajarah Institute';
+      wrap.appendChild(frame);
+      reelGrid.appendChild(wrap);
+    });
+  } else {
+    for (let i = 0; i < 3; i++) {
+      const box = document.createElement('div');
+      box.className = 'reel';
+      box.innerHTML = '<div class="reel-empty">Reel coming soon</div>';
+      reelGrid.appendChild(box);
+    }
+  }
+
+  const photoGrid = document.getElementById('photoGrid');
+  PHOTO_LINKS.forEach(url => {
+    const wrap = document.createElement('div');
+    wrap.className = 'photo reveal';
+    const frame = document.createElement('iframe');
+    frame.src = toEmbed(url);
+    frame.loading = 'lazy';
+    frame.title = 'Photography by SM Abdur Rehman Naqvi';
+    wrap.appendChild(frame);
+    photoGrid.appendChild(wrap);
+  });
+
+  // Theme toggle
+  const root = document.documentElement;
+  const btn = document.getElementById('themeToggle');
+  try { const saved = localStorage.getItem('theme'); if (saved) root.dataset.theme = saved; } catch (e) {}
+  btn.addEventListener('click', () => {
+    const dark = root.dataset.theme === 'dark' || (!root.dataset.theme && matchMedia('(prefers-color-scheme: dark)').matches);
+    root.dataset.theme = dark ? 'light' : 'dark';
+    try { localStorage.setItem('theme', root.dataset.theme); } catch (e) {}
+  });
+
+  // Scroll reveal
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.15 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+</body>
+</html>
